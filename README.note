@@ -1,0 +1,23 @@
+#+title: Note Format
+
+This document details my custom note format.  It is very similar to org, but simplified to look and work better in an environment without org format parsing.
+
+The usual *bold* /italics/ =verbatim= _underline_ -strikethrough- etc. are supported.
+
+Headings are allowed as follows, though seldomly used.  The use of ALL CAPS /is/ part of the standard.
+* THIS IS A HEADING
+** THIS IS A SUBHEADING
+etc...
+
+Usually, instead of headings, new thoughts/subjects/entries get their own line. Subheadings and their items are indented by a number of tab characters corresponding to their nestng depth.
+Per exemplum:
+This line is a note entry
+	This line expands upon the entry
+		This item is an expansion upon the previous line
+	This line is /not/ an expansion upon either of the two previous lines.
+	
+List items can be of the form '- ITEM' or '#. ITEM', and are usually, but not necessarily, indented one level from their preceding line.
+
+[[This is a 'link']].  It is double-brackets a-la org for visibility, and ability to select inside for parsing, either sans brackets ou avec une pair.
+:this-is-a-tag:  Tags should be all lower-case, and hyphens should take the place of spaces - i.e. kebab-case.  The delimiters make it so the last sentence is not strictly necessary.
+#this-can-be-a-tag If you really want...
