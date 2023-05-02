@@ -1,6 +1,6 @@
 #+title: Note Format
 
-This document details my custom note format.  It is org without the */**/etc. syntax.  This has been replaced with tab-indentation.  That is to say it is simplified to look and work better in an environment without org format parsing.
+This document details my custom note format.  It is org without the */**/etc. syntax.  This has been replaced with tab-indentation.  That is to say it is simplified to look and work better in an environment without org format parsing.  I mostly use this format from within the [[acme.cat-v.org][acme]] editor with shell scripts, to re-create a roam/logseq type environment.
 
 The usual *bold* /italics/ =verbatim= _underline_ +strikethrough+ etc. are supported.
 
