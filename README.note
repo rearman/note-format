@@ -1,15 +1,10 @@
 #+title: Note Format
 
-This document details my custom note format.  It is very similar to org, but simplified to look and work better in an environment without org format parsing.
+This document details my custom note format.  It is org without the */**/etc. syntax.  This has been replaced with tab-indentation.  That is to say it is simplified to look and work better in an environment without org format parsing.
 
 The usual *bold* /italics/ =verbatim= _underline_ -strikethrough- etc. are supported.
 
-Headings are allowed as follows, though seldomly used.  The use of ALL CAPS /is/ part of the standard.
-* THIS IS A HEADING
-** THIS IS A SUBHEADING
-etc...
-
-Usually, instead of headings, new thoughts/subjects/entries get their own line. Subheadings and their items are indented by a number of tab characters corresponding to their nestng depth.
+New thoughts/subjects/entries get their own line. Subheadings and their items are indented by a number of tab characters corresponding to their nestng depth.
 Per exemplum:
 This line is a note entry
 	This line expands upon the entry
